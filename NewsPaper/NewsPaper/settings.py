@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
-    'mailing.apps.MailingConfig'
+    # 'mailing.apps.MailingConfig'
 ]
 
 SITE_ID = 1
