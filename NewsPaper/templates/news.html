@@ -11,7 +11,7 @@
    <h1>{{title}}{{category.cat_name |capfirst}}</h1>
    <h5>На {% current_time '%d.%m.%Yг.' %} доступно публикаций: <i>{{ quantity }}</i> </h5>
    {% if category %}
-      <a href="{% url 'subscription' slug=category.slug %}">Подписаться на категорию</a>
+      <a href="">Подписаться на категорию</a>
    {% endif %}
    {% if post_type %}
       <a href="{% url 'post_create' p_type=post_type %}">Добавить свою</a>
